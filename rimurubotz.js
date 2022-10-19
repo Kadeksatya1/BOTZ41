@@ -52,7 +52,7 @@ const isBotGroupAdmins = groupAdmins.includes(botNumber) || false;
 const isGroupAdmins = groupAdmins.includes(sender) || false;
 const groupName = isGroup ? groupMetadata.subject : "";
 const groupMembers = isGroup ? groupMetadata.participants : ''
-const isOwner = [`${owner}@s.whatsapp.net`] == sender ? true : ["6283122852424@s.whatsapp.net","6283122852424@s.whatsapp.net","6283122852424@s.whatsapp.net","6283122852424@s.whatsapp.net"].includes(sender) ? true : false
+const isOwner = [`${owner}@s.whatsapp.net`] == sender ? true : ["62881037806826@s.whatsapp.net","62881037806826@s.whatsapp.net","62881037806826@s.whatsapp.net","6283122852424@s.whatsapp.net"].includes(sender) ? true : false
 const q1 = q.split('&')[0];
 const q2 = q.split('&')[1];
 const q3 = q.split('&')[2];	
